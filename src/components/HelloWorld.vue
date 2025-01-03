@@ -2,14 +2,14 @@
 import { ref } from 'vue'
 
 const count = ref(0)
-const version = '2.1.68'
+const version = '2.1.70'
 const dl = () => {
-	window.open('https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/gjf2/Easy-Farm-Setup-Latest.exe?t=' + Date.now())
+	window.open(`https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/gjf2/Easy-Farm-${version}-Setup.exe?t=` + Date.now())
 }
 
 const dl2 = () => {
 	window.open(
-		`https://cf.981001.xyz/gjf2/Easy-Farm-Setup-Latest.exe?t=${Date.now()}`
+		`https://cf.981001.xyz/gjf2/Easy-Farm-${version}-Setup.exe?t=${Date.now()}`
 	)
 }
 </script>
@@ -17,7 +17,7 @@ const dl2 = () => {
 <template>
 	<h1>{{ `poe2易刷查价器 最新版本${version}` }}</h1>
 	<div>
-		<img src="/2.1.68.png" />
+		<img src="/1.png" />
 	</div>
 	<div class="card">
 		<button style="background-color: bisque" type="button" @click="dl">
