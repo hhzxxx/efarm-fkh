@@ -2,14 +2,14 @@
 import { ref } from 'vue'
 
 const count = ref(0)
-const version = '2.1.70'
+const version = '2.1.71'
 const dl = () => {
 	window.open(`https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/gjf2/Easy-Farm-Setup-Latest.exe?t=` + Date.now())
 }
 
 const dl2 = () => {
 	window.open(
-		`https://cf.981001.xyz/gjf2/Easy-Farm-${version}-Setup.exe?t=${Date.now()}`
+		`https://cf.981001.xyz/gjf2/Easy-Farm-Setup-Latest.exe?t=${Date.now()}`
 	)
 }
 </script>
