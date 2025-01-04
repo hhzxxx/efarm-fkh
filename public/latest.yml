@@ -1,8 +1,8 @@
 version: 2.1.70
 files:
-  - url: https://github.com/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-2.1.70-Setup.exe
-    sha512: DkMaLfAEh4I1M1GsEqsrCQa5+4CtFaCjWlaXbw8lrYpKmNSsQFeoisBkyHz4CVD0hzJbTkadPGZiJ40qQWO2ww==
-    size: 76262187
-path: Easy-Farm-2.1.70-Setup.exe
-sha512: DkMaLfAEh4I1M1GsEqsrCQa5+4CtFaCjWlaXbw8lrYpKmNSsQFeoisBkyHz4CVD0hzJbTkadPGZiJ40qQWO2ww==
-releaseDate: '2025-01-03T16:38:43.428Z'
+  - url: https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/gjf2/Easy-Farm-Setup-Latest.exe
+    sha512: nja1F2LaCrVz7/mMaqrOqm22foHefDSp8kScIjI26FkCDXvJBTDWS0CVbcrm98uPAp8S6iqzYyJGxpJ8+cQV/Q==
+    size: 76652529
+path: Easy-Farm-Setup-Latest.exe
+sha512: nja1F2LaCrVz7/mMaqrOqm22foHefDSp8kScIjI26FkCDXvJBTDWS0CVbcrm98uPAp8S6iqzYyJGxpJ8+cQV/Q==
+releaseDate: '2025-01-04T02:48:10.380Z'
