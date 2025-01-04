@@ -1,8 +1,8 @@
 version: 2.1.71
 files:
   - url: https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/gjf2/Easy-Farm-Setup-Latest.exe
-    sha512: bU7gKcbERUqe6YbtDtBKIFyxXgrmTR3xNHPNnwifoFXECgEVMn9HNhrS8oyfyg+4gkvUbZrEhS/Qt+SJ3cpjdg==
-    size: 76653368
+    sha512: s41OqIu8CS6xmzNPnXzbv2CR2EaRpfV/+nwDE2Jq1eoOpFfxOa7DUSq85+VN/7LMiv4+CvFW6QgSZBnBpYfDYw==
+    size: 76652852
 path: Easy-Farm-Setup-Latest.exe
-sha512: bU7gKcbERUqe6YbtDtBKIFyxXgrmTR3xNHPNnwifoFXECgEVMn9HNhrS8oyfyg+4gkvUbZrEhS/Qt+SJ3cpjdg==
-releaseDate: '2025-01-04T03:40:47.390Z'
+sha512: s41OqIu8CS6xmzNPnXzbv2CR2EaRpfV/+nwDE2Jq1eoOpFfxOa7DUSq85+VN/7LMiv4+CvFW6QgSZBnBpYfDYw==
+releaseDate: '2025-01-04T04:03:41.961Z'
