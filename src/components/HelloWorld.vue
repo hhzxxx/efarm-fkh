@@ -2,7 +2,7 @@
 
 const version = '2.1.42'
 const dl = () => {
-	window.open('https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/latest/Easy-Farm-Setup-Latest.exe?t=' + Date.now())
+	window.open('https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/tx1/efarm2.1.42-tx.exe?t=' + Date.now())
 }
 
 const dl2 = () => {

@@ -1,8 +1,8 @@
 version: 2.1.42
 files:
-  - url: https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/latest/Easy-Farm-Setup-Latest.exe
+  - url: https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/tx1/efarm2.1.42-tx.exe
     sha512: f1YOGPOGpvLJsAQgtMjb1/84Kglzq93vW0RT5ADKi7MBR4Ny68MqB8SQF7fnfxtehfB4nqot9xpJc0mXvPblTw==
     size: 92051143
-path: Easy-Farm-Setup-Latest.exe
+path: efarm2.1.42-tx.exe
 sha512: f1YOGPOGpvLJsAQgtMjb1/84Kglzq93vW0RT5ADKi7MBR4Ny68MqB8SQF7fnfxtehfB4nqot9xpJc0mXvPblTw==
 releaseDate: '2024-11-19T09:43:58.912Z'
