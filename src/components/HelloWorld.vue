@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const count = ref(0)
-const version = '2.1.73'
+const version = '2.1.75'
 const dl = () => {
 	window.open(`https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/gjf2/Easy-Farm-Setup-Latest.exe?t=` + Date.now())
 }
@@ -15,7 +15,7 @@ const dl2 = () => {
 </script>
 
 <template>
-	<h1>{{ `poe2易刷查价器 最新版本${version}` }}</h1>
+	<h1>{{ `易刷查价器 最新版本${version}` }}</h1>
 	<div>
 		<img src="/1.png" />
 	</div>
