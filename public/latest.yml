@@ -1,8 +1,8 @@
-version: 2.1.80
+version: 2.1.81
 files:
   - url: https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/tx1/Easy-Farm-Setup-Latest.exe
-    sha512: 0QY6Dvkzl5aW1PH798yFDSMPsWFtgA5pPKOQKzoSJbNV4ZW1fyJww7YTIbC3MJ0ECX4xir/qT1Bl3Nr/QRCXcg==
-    size: 92305005
+    sha512: KQ1zC/JoCnzxUHbKhhw1agjUx30bqGiw11iC8y3i3kQ7GPZXMUFMmOaOwfPo84zOsThoGtK5gbcxbe5/ZZOlVw==
+    size: 92306535
 path: Easy-Farm-Setup-Latest.exe
-sha512: 0QY6Dvkzl5aW1PH798yFDSMPsWFtgA5pPKOQKzoSJbNV4ZW1fyJww7YTIbC3MJ0ECX4xir/qT1Bl3Nr/QRCXcg==
-releaseDate: '2025-02-21T08:57:14.058Z'
+sha512: KQ1zC/JoCnzxUHbKhhw1agjUx30bqGiw11iC8y3i3kQ7GPZXMUFMmOaOwfPo84zOsThoGtK5gbcxbe5/ZZOlVw==
+releaseDate: '2025-02-22T08:38:13.813Z'
