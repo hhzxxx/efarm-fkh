@@ -7,7 +7,7 @@ const dl = () => {
 
 const dl2 = () => {
 	window.open(
-		`https://cf.981001.xyz/Easy-Farm-Setup-Latest.exe?t=${Date.now()}`
+		`https://cf.981001.xyz/gjf2/Easy-Farm-Setup-Latest.exe?t=${Date.now()}`
 	)
 }
 </script>
