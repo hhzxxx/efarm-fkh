@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const count = ref(0)
-const version = '2.1.81'
+const version = '2.1.82'
 const dl = () => {
 	window.open(`https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/gjf2/Easy-Farm-Setup-Latest.exe?t=` + Date.now())
 }
