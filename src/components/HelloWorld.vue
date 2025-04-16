@@ -4,7 +4,7 @@ import { ref } from 'vue'
 const count = ref(0)
 const version = '2.1.82'
 const dl = () => {
-	window.open(`https://gitee.com/hhzxxx/exilence-next-tx-release/releases/download/gjf2/Easy-Farm-Setup-Latest.exe?t=` + Date.now())
+	window.open(`https://release.710421059.xyz/file/Easy-Farm-Setup-Latest.exe`)
 }
 
 const dl2 = () => {
@@ -20,12 +20,12 @@ const dl2 = () => {
 		<img src="/1.png" />
 	</div>
 	<div class="card">
-		<button style="background-color: bisque" type="button" @click="dl">
+		<button style="background-color: bisque" type="button" @click="dl2">
 			点击下载-分流1
 		</button>
 	</div>
 	<div class="card">
-		<button style="background-color: bisque" type="button" @click="dl2">
+		<button style="background-color: bisque" type="button" @click="dl">
 			点击下载-分流2
 		</button>
 	</div>
