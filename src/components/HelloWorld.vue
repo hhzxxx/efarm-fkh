@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const count = ref(0)
-const version = '2.1.91'
+const version = '2.1.93'
 const dl = () => {
 	// window.open(`https://release.710421059.xyz/file/Easy-Farm-Setup-Latest.exe`)
 	window.open(`https://pan.quark.cn/s/8ad405b474e9`)
@@ -17,6 +17,7 @@ const dl2 = () => {
 
 <template>
 	<h1>{{ `易刷查价器 最新版本${version}  新增易泥工具箱~` }}</h1>
+  <h2>使用易泥重新修补时，先点还原重置</h2>
 	<div>
 		<img src="/1.png" />
 	</div>
