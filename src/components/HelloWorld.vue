@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const count = ref(0)
-const version = '2.1.95'
+const version = '2.1.97'
 const dl = () => {
 	// window.open(`https://release.710421059.xyz/file/Easy-Farm-Setup-Latest.exe`)
 	window.open(`https://ghfast.top/https://github.com/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe`)
