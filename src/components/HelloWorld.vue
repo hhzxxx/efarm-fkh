@@ -17,7 +17,6 @@ const dl2 = () => {
 
 <template>
 	<h1>{{ `易刷查价器 最新版本${version}  新增易泥工具箱~` }}</h1>
-  <h2>使用易泥重新修补时，先点还原重置</h2>
 	<div>
 		<img src="/1.png" />
 	</div>
@@ -30,6 +29,11 @@ const dl2 = () => {
 		<button style="background-color: bisque" type="button" @click="dl">
 			点击下载-分流2
 		</button>
+	</div>
+	<div>
+		<p>易泥目前只根据poe1实现了所有功能，poe2是否可用不做保证，所有选项在各版本游戏修补内容均一致</p>
+		<p>易泥移除了poe1选项中的视距和小地图全开，只在poe2选项中保留了这俩功能</p>
+		<img src="/gou.jpg" />
 	</div>
 	<div>
 		<p>列举几个常见问题：</p>
