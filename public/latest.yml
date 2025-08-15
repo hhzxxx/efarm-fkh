@@ -1,8 +1,8 @@
-version: 2.1.97
+version: 2.1.98
 files:
   - url: https://ghfast.top/https://github.com/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe
-    sha512: WOvZgY3Dnl3nbEVMzWNXjskZ4j9IndixmEBEOKSCCqOIqAReEwv36eFZcUlwfkZWydjiYaC5yJcaTeoSnLp2OA==
-    size: 75621453
+    sha512: jOScyJmcsR7lTg5Fy+NtzdHQHqJcsIefOwtwbwNRbDiNm3cF2XoEe/OhUQz9GtaCDb4eotgRW/zX3qH62IvCAA==
+    size: 75459481
 path: Easy-Farm-Setup-Latest.exe
-sha512: WOvZgY3Dnl3nbEVMzWNXjskZ4j9IndixmEBEOKSCCqOIqAReEwv36eFZcUlwfkZWydjiYaC5yJcaTeoSnLp2OA==
-releaseDate: '2025-07-13T11:53:57.212Z'
+sha512: jOScyJmcsR7lTg5Fy+NtzdHQHqJcsIefOwtwbwNRbDiNm3cF2XoEe/OhUQz9GtaCDb4eotgRW/zX3qH62IvCAA==
+releaseDate: '2025-08-15T05:05:09.840Z'
