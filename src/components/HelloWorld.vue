@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
 
 const count = ref(0)
 const version = ref('')
@@ -12,6 +12,14 @@ const dl = () => {
 
 const dl2 = () => {
   window.open(`https://cf.981001.xyz/gjf2/Easy-Farm-Setup-Latest.exe?t=${Date.now()}`)
+}
+
+const caimogu = () => {
+  window.open(`https://www.caimogu.cc/post/1621584.html`)
+}
+
+const poe1 = () => {
+  window.open(`https://docs.qq.com/doc/DQ3B3UFJxeEVudFVX`)
 }
 
 onMounted(async () => {
@@ -54,6 +62,14 @@ onMounted(async () => {
       </button>
       <button class="alt-download" @click="dl">
         点击下载-分流2
+      </button>
+    </div>
+    <div class="download-options">
+      <button class="alt-download" @click="caimogu">
+        简易介绍地址
+      </button>
+      <button class="alt-download" @click="poe1">
+        poe1登录教程
       </button>
     </div>
     <div class="download-section">
