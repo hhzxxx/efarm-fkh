@@ -81,7 +81,7 @@ onMounted(async () => {
     </div>
 
     <div class="image-section">
-		<img class="image-section" src="/1.jpg" />
+		<img class="image-section" src="/1.png" />
     </div>
   </div>
   <div class="content-section">
