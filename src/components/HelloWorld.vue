@@ -7,7 +7,7 @@ const fileSize = ref('')
 const releaseDate = ref('')
 
 const dl = () => {
-  window.open(`https://github.com/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe`)
+  window.open(`https://hk.gh-proxy.com/https://github.com/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe`)
 }
 
 const dl2 = () => {
