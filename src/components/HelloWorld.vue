@@ -174,10 +174,30 @@ onMounted(async () => {
 
 .alt-download {
   background-color: #f0f0f0;
+  color: #333;
   border: 1px solid #ddd;
   padding: 8px 16px;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.alt-download:hover {
+  background-color: #e0e0e0;
+  border-color: #bbb;
+}
+
+@media (prefers-color-scheme: dark) {
+  .alt-download {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border-color: #555;
+  }
+  
+  .alt-download:hover {
+    background-color: #3a3a3a;
+    border-color: #777;
+  }
 }
 
 .content-section {
@@ -204,10 +224,23 @@ onMounted(async () => {
   padding: 20px;
 }
 
+@media (prefers-color-scheme: dark) {
+  .content-card {
+    background: #2a2a2a;
+    color: #ffffff;
+  }
+}
+
 .content-card h3 {
   margin-top: 0;
   margin-bottom: 15px;
   color: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+  .content-card h3 {
+    color: #ffffff;
+  }
 }
 
 .content-card ul {
