@@ -1,9 +1,12 @@
 <script setup>
 import { onMounted, ref } from 'vue'
+import MarkdownIt from 'vue3-markdown-it';
+// import 'github-markdown-css';
 
 const count = ref(0)
 const version = ref('')
 const fileSize = ref('')
+const mdContent = ref('')
 const releaseDate = ref('')
 
 const dl = () => {
@@ -26,18 +29,27 @@ onMounted(async () => {
   try {
     const response = await fetch('/latest.yml')
     const yamlContent = await response.text()
-    
+
+    const response2 = await fetch('/update.md')
+    mdContent.value = await response2.text()
+
+    //连接转化
+    const pdfLinkRegex = /(https?:\/\/[^\s]+)/g;
+
+    const result = mdContent.value.replace(pdfLinkRegex, '[点击下载]($1)');
+    mdContent.value = result
+
     // Parse version
     const versionMatch = yamlContent.match(/version: (.+)/)
     if (versionMatch) version.value = versionMatch[1]
-    
+
     // Parse file size
     const sizeMatch = yamlContent.match(/size: (\d+)/)
     if (sizeMatch) {
       const sizeInMB = parseInt(sizeMatch[1]) / (1024 * 1024)
       fileSize.value = `${sizeInMB.toFixed(1)}MB`
     }
-    
+
     // Parse release date
     const dateMatch = yamlContent.match(/releaseDate: '(.+?)T/)
     if (dateMatch) releaseDate.value = dateMatch[1]
@@ -80,9 +92,7 @@ onMounted(async () => {
       </div>
     </div>
 
-    <div class="image-section">
-		<img class="image-section" src="/1.png" />
-    </div>
+    <MarkdownIt :source="mdContent" />
   </div>
   <div class="content-section">
     <div class="content-grid">
@@ -91,7 +101,7 @@ onMounted(async () => {
         <ul>
           <li>易泥目前只根据poe1实现了所有功能，poe2是否可用不做保证</li>
           <li>所有选项在各版本游戏修补内容均一致</li>
-          <li>移除了poe1选项中的视距和小地图全开，只在poe2选项中保留了这俩功能</li>
+          <li>移除了poe1选项中的视距和小地图全开，只在国际服poe2选项中保留了这俩功能</li>
         </ul>
         <img src="/gou.jpg" />
       </div>
@@ -181,6 +191,7 @@ onMounted(async () => {
     gap: 20px;
   }
 }
+
 @media (max-width: 767px) {
   .content-grid {
     display: block;
