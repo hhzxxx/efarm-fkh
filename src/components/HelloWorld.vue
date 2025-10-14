@@ -117,6 +117,7 @@ onMounted(async () => {
       </div>
     </div>
   </div>
+  <a href="https://icp.gov.moe/?keyword=20257104" target="_blank">萌ICP备20257104号</a>
 </template>
 
 <style scoped>
