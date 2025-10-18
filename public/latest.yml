@@ -1,8 +1,8 @@
-version: 2.2.14
+version: 2.2.15
 files:
   - url: https://hk.gh-proxy.com/https://github.com/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe
-    sha512: e1+yUiu4y3chhk3kT8y5doP0r9zRYyW/IViwp4MjfoffXFDkAxgz12BIswOVw9I/Vv3RkkuBsSeDmfy6Q5snEA==
-    size: 75740500
+    sha512: BSTk4/YtXAcXI8lcUZ+Jw1bNFNwnUKTt1wjJpfQfyy9j17aIdp0YEN+nDNPJBkbhxBUTB4OMJ20ZO3IE8Vtc+w==
+    size: 78216499
 path: Easy-Farm-Setup-Latest.exe
-sha512: e1+yUiu4y3chhk3kT8y5doP0r9zRYyW/IViwp4MjfoffXFDkAxgz12BIswOVw9I/Vv3RkkuBsSeDmfy6Q5snEA==
-releaseDate: '2025-09-28T09:25:00.873Z'
+sha512: BSTk4/YtXAcXI8lcUZ+Jw1bNFNwnUKTt1wjJpfQfyy9j17aIdp0YEN+nDNPJBkbhxBUTB4OMJ20ZO3IE8Vtc+w==
+releaseDate: '2025-10-18T05:03:31.704Z'
