@@ -1,8 +1,6 @@
 export default async function onRequest(context) {
-  const a = [1, 3, 4, 6, 8]
   // console.log(context);
   const params = context.params.default
-  let url = ''
   let name = ''
   if(typeof params === 'string') {
     name = params
@@ -10,16 +8,27 @@ export default async function onRequest(context) {
     name = params.join('/')
   }
   console.log(name);
-  if(name.includes('price')) {
-    url = `https://cf.981001.xyz/${a[Math.floor(Math.random() * a.length)]}/${name.split('/').pop().replace('fkh', '.')}`
-  } else {
-    url = `https://cf.981001.xyz/${a[Math.floor(Math.random() * a.length)]}/remoteCode/${name.split('/').pop().replace('fkh', '.')}`
-  }
-  console.log(url);
-  const response = await fetch(url);
-  const text = await response.text();
-  // console.log(text);
+  const text = await getPrice(name,0);
   return new Response(text);
-  // http://cf.981001.xyz/8/price1.txt
-  // return new Response(str);
+}
+
+const getPrice = async (name,errorTimes = 0) => {
+  if(errorTimes > 3) {
+    return '';
+  }
+  try {
+    let url = '';
+    const a = [1, 3, 4, 6, 8]
+    if(name.includes('price')) {
+      url = `https://cf.981001.xyz/${a[Math.floor(Math.random() * a.length)]}/${name.split('/').pop().replace('fkh', '.')}`
+    } else {
+      url = `https://cf.981001.xyz/${a[Math.floor(Math.random() * a.length)]}/remoteCode/${name.split('/').pop().replace('fkh', '.')}`
+    }
+    console.log(url);
+    const response = await fetch(url);
+    const text = await response.text();
+    return text;
+  }catch(error) {
+    return getPrice(name,errorTimes + 1);
+  }
 }
