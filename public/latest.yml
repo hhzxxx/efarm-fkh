@@ -1,6 +1,6 @@
 version: 2.2.17
 files:
-  - url: https://github.com/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe
+  - url: https://gh.072103.xyz/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe
     sha512: xVwgvbl9U2+sPS4V2baicaPDiQT0P7yCqAbmixcS8L0cnsOnUY7InwdiOVyUOLvk0YKfubSAZFiUZRG8Ff7lcA==
     size: 78663429
 path: Easy-Farm-Setup-Latest.exe
