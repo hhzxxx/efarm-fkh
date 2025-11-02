@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref } from 'vue'
+import { onMounted, ref } from 'vue';
 import MarkdownIt from 'vue3-markdown-it';
 // import 'github-markdown-css';
 
@@ -10,7 +10,7 @@ const mdContent = ref('')
 const releaseDate = ref('')
 
 const dl = () => {
-  window.open(`https://hk.gh-proxy.com/https://github.com/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe`)
+  window.open(`https://gh.072103.xyz/hhzxxx/efarm-fkh/releases/tag/gjf2/Easy-Farm-Setup-Latest.exe`)
 }
 
 const dl2 = () => {
