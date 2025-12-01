@@ -1,8 +1,8 @@
-version: 2.2.24
+version: 2.2.25
 files:
   - url: https://gh.072103.xyz/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe
-    sha512: u7KEy7AO9B3s3fGztjuQ9Z8xInPcy7l0k7+qpMw7BfX9SQXSGCET/LxmJ16E/jyJzqyIFwETvBL0GHo+HnrKbQ==
-    size: 78513042
+    sha512: Rr6eyJGwMj0e3MG9zGYrei92j1do7cSeHTAAs6gLr2ICf8PzaVmVYadw27LMIHwTXPoSX0ERtPxhzKlXsyg79Q==
+    size: 78640915
 path: Easy-Farm-Setup-Latest.exe
-sha512: u7KEy7AO9B3s3fGztjuQ9Z8xInPcy7l0k7+qpMw7BfX9SQXSGCET/LxmJ16E/jyJzqyIFwETvBL0GHo+HnrKbQ==
-releaseDate: '2025-11-30T11:50:53.981Z'
+sha512: Rr6eyJGwMj0e3MG9zGYrei92j1do7cSeHTAAs6gLr2ICf8PzaVmVYadw27LMIHwTXPoSX0ERtPxhzKlXsyg79Q==
+releaseDate: '2025-12-01T05:50:12.777Z'
