@@ -10,7 +10,7 @@ const mdContent = ref('')
 const releaseDate = ref('')
 
 const dl = () => {
-  window.open(`https://gh.072103.xyz/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe`)
+  window.open(`https://edgeone.gh-proxy.org/https://github.com/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe`)
 }
 
 const dl2 = () => {
