@@ -80,7 +80,7 @@ onMounted(async () => {
           <p class="eyebrow">WINDOWS RELEASE CHANNEL</p>
           <h1>易刷查价器，获取最新稳定版本。</h1>
           <p class="hero-copy">
-            面向 Path of Exile 玩家的一站式工具发布页。集中提供最新版安装包、更新日志、使用教程与网络问题排查说明。
+            易刷查价器，也叫 Easy Farm，是面向流放之路 Path of Exile / POE 玩家使用的查价工具发布页。这里集中提供最新版安装包、更新日志、使用教程与网络问题排查说明。
           </p>
 
           <div class="hero-actions" aria-label="下载入口">
@@ -143,7 +143,7 @@ onMounted(async () => {
         <div class="section-heading">
           <p class="eyebrow">FEATURES</p>
           <h2>发布页保持简单，下载与排障信息一眼可见。</h2>
-          <p>用更清晰的层级承载工具说明、版本状态和游戏适配提示，让用户无需在多处查找关键信息。</p>
+          <p>易刷、Easy Farm、POE 查价器、流放之路查价工具等核心信息会在页面中自然呈现，方便搜索引擎理解站点主题。</p>
         </div>
 
         <div class="feature-grid">

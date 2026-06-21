@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://efarm-gjf-release.710421059.xyz/sitemap.xml
