@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "fetch:update": "node scripts/fetch-update-log.mjs",
+    "prebuild": "node scripts/fetch-update-log.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },

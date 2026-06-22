@@ -65,7 +65,7 @@ onMounted(async () => {
       <div class="nav-links">
         <a href="#download">下载</a>
         <a href="#updates">更新日志</a>
-        <a href="#features">功能说明</a>
+        <a href="#features">功能亮点</a>
         <a href="#faq">常见问题</a>
       </div>
       <button class="nav-cta" type="button" @click="dl2">立即下载</button>
@@ -176,19 +176,6 @@ onMounted(async () => {
       </section>
 
       <section class="content-section" id="faq">
-        <article class="content-card large-card">
-          <div class="card-copy">
-            <p class="eyebrow">NOTES</p>
-            <h3>功能说明</h3>
-            <ul>
-              <li>易泥目前只根据 POE1 实现了所有功能，POE2 是否可用不做保证。</li>
-              <li>所有选项在各版本游戏修补内容均一致。</li>
-              <li>移除了 POE1 选项中的视距和小地图全开，只在国际服 POE2 选项中保留了这两个功能。</li>
-            </ul>
-          </div>
-          <img src="/gou.jpg" alt="功能说明截图" loading="lazy" />
-        </article>
-
         <article class="content-card large-card">
           <div class="card-copy">
             <p class="eyebrow">FAQ</p>
@@ -615,9 +602,7 @@ h1 {
 }
 
 .content-section {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
+  display: block;
   padding-bottom: 88px;
 }
 
