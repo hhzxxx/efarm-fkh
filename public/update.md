@@ -20,6 +20,6 @@ https://hero.710421059.xyz/builds
 ## 给ninja套了一个腾讯cdn的壳，支持繁简英切换，支持中文搜索装备技能,支持一键跳转编年史。
 - https://ninja.710421059.xyz/
 
-## Biubiu加速器，输入口令【放课后】领3天会员
-- Biubiu加速器，输入口令【放课后】领3天会员，加速器端内搜索【放课后】进入福利专区保底再抽3天会员，最高可领永久免费加速！
+## Biubiu加速器，输入口令【易刷】领3天会员
+- Biubiu加速器，输入口令【易刷】领3天会员
 - 下载链接：https://ug.9game.cn/absolute/?adRaTid=64dc8d3a886e230f12b39030&ch=BTF_1671&gch=BTF_1671
