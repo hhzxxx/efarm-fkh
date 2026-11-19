@@ -1,8 +1,8 @@
-version: 3.0.27
+version: 3.0.28
 files:
   - url: https://edgeone.gh-proxy.org/https://github.com/hhzxxx/efarm-fkh/releases/download/gjf2/Easy-Farm-Setup-Latest.exe
-    sha512: 1zXoxbctbsT3/PbjKUL8vXg3U0vXr+cedbE67aPSmOtzdc99VQ8zMHG3CQFGa520/tRrbnGeKy933OkY6Hp7pA==
-    size: 100250330
+    sha512: QMTIfLLl/qk/t6MikYoJ5bBTrI3tMDqEafosDmhaAG2W1BkS8uj0YBzuam/oG7Lq+fQdpz9fmwjFErI/Jx7wDA==
+    size: 108522396
 path: Easy-Farm-Setup-Latest.exe
-sha512: 1zXoxbctbsT3/PbjKUL8vXg3U0vXr+cedbE67aPSmOtzdc99VQ8zMHG3CQFGa520/tRrbnGeKy933OkY6Hp7pA==
-releaseDate: '2026-11-13T09:27:26.137Z'
+sha512: QMTIfLLl/qk/t6MikYoJ5bBTrI3tMDqEafosDmhaAG2W1BkS8uj0YBzuam/oG7Lq+fQdpz9fmwjFErI/Jx7wDA==
+releaseDate: '2026-11-19T15:44:01.915Z'
